@@ -4,7 +4,7 @@
 # Base16 Prompt Toolkit template by Carlos Pita (carlosjosepita@gmail.com
 # Pico scheme by PICO-8 (http://www.lexaloffle.com/pico-8.php)
 
-from prompt_toolkit.terminal.vt100_output import _256_colors
+from prompt_toolkit.output.vt100 import _256_colors
 from pygments.style import Style
 from pygments.token import (Keyword, Name, Comment, String, Error, Text,
                             Number, Operator, Literal, Token)
